@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "AngularHighCharts-Map-Scatter-Dynamicdataloading": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularHighCharts-Map-Scatter-Dynamicdataloading"
+    }
+  },
+  "defaultProject": "AngularHighCharts-Map-Scatter-Dynamicdataloading",
+  "cli": {
+    "analytics": "3fb4c5e9-9404-40d4-9781-2b92c07507ea"
+  }
 }
