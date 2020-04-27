@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CountryMapComponent } from './country-map/country-map.component';
 import { ScatterPlotComponent } from './scatter-plot/scatter-plot.component';
+import { DatePipe } from '@angular/common';
+import { HighchartsChartModule } from "highcharts-angular";
 
 @NgModule({
   declarations: [
@@ -14,9 +16,10 @@ import { ScatterPlotComponent } from './scatter-plot/scatter-plot.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HighchartsChartModule
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -7,7 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularHighCharts-Map-Scatter-Dynamicdataloading';
-
-  scatterData:any = "hi";
-  mapaData: any = "bye";
+  
 }
