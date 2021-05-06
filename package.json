@@ -22,7 +22,7 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "highcharts": "^7.0.3",
+    "highcharts": "^9.0.0",
     "highcharts-angular": "^2.4.0",
     "@highcharts/map-collection": "^1.1.3"
   },
